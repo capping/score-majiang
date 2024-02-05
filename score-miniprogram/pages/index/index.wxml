@@ -1,0 +1,14 @@
+<!--pages/index.wxml-->
+<!--个人信息页面-->
+
+<view data-weui-theme="{{theme}}">
+    <!--用户头像-->
+    <button class="avatar-wrapper" disabled="true">
+        <image class="avatar" src="{{avatar}}"></image>
+    </button>
+
+    <!--用户昵称-->
+    <view class="container">
+        <input type="nickname" value="{{nick_name}}" />
+    </view>
+</view>

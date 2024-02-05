@@ -1,0 +1,19 @@
+/* pages/index.wxss */
+.avatar-wrapper {
+    padding: 0;
+    width: 56px !important;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.avatar {
+    display: block;
+    width: 56px;
+    height: 56px;
+    border: 1px black; 
+}
+
+.container {
+    text-align: center;
+}
